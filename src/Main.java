@@ -1,18 +1,18 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Home work 2!");
-        int myBalanc = 30000000;
+        int myBalance= 30000000;
         byte myBookc = 2;
         short myOlives = 20000;
-        long balanceCoutry = 9999999999L;
+        long bees = 9999999999L;
         float cereal = 1.13f;
         double gold = 0.14;
-        System.out.println(myBalanc);
-        System.out.println(myBookc);
-        System.out.println(myOlives);
-        System.out.println(balanceCoutry);
-        System.out.println(cereal);
-        System.out.println(gold);
+        System.out.println("Значение переменой myBalance с типом int равнор "+myBalance);
+        System.out.println("Значение переменой myBoock с типом byte равнор "+myBookc);
+        System.out.println("Значение переменой myOlives  с типом short равнор "+myOlives);
+        System.out.println("Значение переменой bees с типом long равнор "+bees);
+        System.out.println("Значение переменой cereal с типом float равнор "+cereal);
+        System.out.println("Значение переменой gold с типом double равнор "+gold);
 
         float a =27.12f;
         long b =987678965549L;
@@ -98,13 +98,13 @@ public class Main {
         int salaryKristinaAfterIndaxation = newSalaryKristina*12;
         int salaryDenisAfterIndaxation = newSalaryDenis*12;
 
-        int GotUpsalaryMasha = salaryMashaAfterIndaxation-salaryMashaBeforIndaxation;
-        int GotUpsalaryDenis = salaryDenisAfterIndaxation-salaryDenisBeforIndaxation;
-        int GotUpsalaryKristina = salaryKristinaAfterIndaxation-salaryKristinaBeforIndaxation ;
+        int gotUpsalaryMasha = salaryMashaAfterIndaxation-salaryMashaBeforIndaxation;
+        int gotUpsalaryDenis = salaryDenisAfterIndaxation-salaryDenisBeforIndaxation;
+        int gotUpsalaryKristina = salaryKristinaAfterIndaxation-salaryKristinaBeforIndaxation ;
 
-        System.out.println("Маша теперь получает "+newSalaryMasha+" рублей.Годовой доход вырос на "+GotUpsalaryMasha+" рублей");
-        System.out.println("Денис теперь получает "+newSalaryDenis+" рублей.Годовой доход вырос на "+GotUpsalaryDenis+" рублей");
-        System.out.println("Кристина теперь получает "+newSalaryKristina+" рублей.Годовой доход вырос на "+GotUpsalaryKristina+" рублей");
+        System.out.println("Маша теперь получает "+newSalaryMasha+" рублей.Годовой доход вырос на "+gotUpsalaryMasha+" рублей");
+        System.out.println("Денис теперь получает "+newSalaryDenis+" рублей.Годовой доход вырос на "+gotUpsalaryDenis+" рублей");
+        System.out.println("Кристина теперь получает "+newSalaryKristina+" рублей.Годовой доход вырос на "+gotUpsalaryKristina+" рублей");
 
 
 
